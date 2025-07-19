@@ -261,6 +261,26 @@
             background: #111;
         }
 
+        .contact-info {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .contact-info p {
+            color: #ccc;
+            font-size: 1.2rem;
+        }
+
+        .contact-info a {
+            color: #00d4ff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            text-shadow: 0 0 5px rgba(0, 212, 255, 0.5);
+        }
+
         .contact-form {
             max-width: 600px;
             margin: 0 auto;
@@ -462,6 +482,9 @@
         <section class="contact" id="contact">
             <div class="container">
                 <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-info">
+                    <p>Contact Us: <a href="mailto:hello@socialengineeringdevelopmentllc.org">hello@socialengineeringdevelopmentllc.org</a></p>
+                </div>
                 <form class="contact-form" onsubmit="handleSubmit(event)">
                     <div class="form-group">
                         <label for="name">Name</label>
